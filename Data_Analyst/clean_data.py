@@ -1,8 +1,11 @@
 import pandas as pd
 
 # ambil dari lokal
-input_path = r'D:\Codingan\Python\Data_Analyst\student_exam_performance-selected-columns.csv'
-output_path = r'D:\Codingan\Python\Data_Analyst\student_exam_performance-selected-columns.xlsx'
+#Use this code pathing your data csv to xlsx.
+#Delete '#' and fill path to activate
+
+#input_path = r'ur_path_directory.csv'
+#output_path = r'ur_path_directory.xlsx'
 
 # read data
 df = pd.read_csv(input_path)
