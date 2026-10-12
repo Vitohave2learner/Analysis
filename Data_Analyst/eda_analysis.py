@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 1. Load data
-input_path = r'D:\Codingan\Python\Data_Analyst\student_exam_performance-selected-columns.csv'
+#Delete '#' and fill path to activate
+
+#input_path = r'ur_path_directory.csv'
 df = pd.read_csv(input_path)
 
 # PERBAIKAN WIB: Pastikan tipe data numerik bersih dari spasi dan diubah ke angka
